@@ -2,11 +2,11 @@ package cn.xuhao.demo.paymentserver.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.util.CollectionUtils;
 import springfox.documentation.service.ResponseMessage;
 
 import java.util.List;
 
-import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
@@ -22,7 +22,7 @@ import cn.xuhao.demo.paymentserver.util.RestTemplateUtil;
 import cn.xuhao.demo.paymentserver.util.Result;
 
 /**
- * @author: xuhao
+ *
  * @Description:
  * @Date：Created on 2018/3/15 18:14.
  */
@@ -53,7 +53,7 @@ public class PaymentServerController {
     }
     /**
      * 使用 Ribbon组件和Feign调用 比较
-     * @param name
+     * @param
      * @return
      */
     @RequestMapping("/testVoid")

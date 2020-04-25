@@ -11,7 +11,7 @@ import springfox.documentation.builders.ResponseMessageBuilder;
 import springfox.documentation.service.ResponseMessage;
 
 /**
- * @author: xuhao
+ *
  * @Description:
  * @Date：Created on 2018/3/15 18:14.
  */
@@ -22,7 +22,7 @@ public class OrderServerController {
     String port;
 
     @RequestMapping("/orderSomething/{name}")
-    @ApiOperation(value = "下单")
+    @ApiOperation(value = "下单11111111111111111111111111111")
     public ResponseMessage order(@PathVariable String name) {
         String resule = "第"+name+"次请求,服务的端口为:" +port;
         return new ResponseMessageBuilder().code(200).message("OrderService1-下单成功"+resule).build();

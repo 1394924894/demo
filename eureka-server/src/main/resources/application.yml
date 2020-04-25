@@ -13,7 +13,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: false
     service-url:
-       defaultZone:   http://localhost:${server.port}/eureka/
+         defaultZone:   http://localhost:${server.port}/eureka/
 ##  日志
 logging:
   level:

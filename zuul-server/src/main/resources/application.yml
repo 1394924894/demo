@@ -1,6 +1,6 @@
 ##  服务端口
 server:
-  port: 8081
+  port: 8095
 ##  服务名称
 spring:
   application:
@@ -9,9 +9,9 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone:   http://localhost:8080/eureka/
+      defaultZone: http://localhost:8080/eureka/
   instance:
-    status-page-url: http://localhost:8081/swagger-ui.html
+    status-page-url: http://localhost:8095/swagger-ui.html
 ##  日志
 logging:
   level:
@@ -33,6 +33,8 @@ zuul:
       path: /pay/**
     order-server:
       path: /order/**
+    login-server:
+      path: /login/**
   host:
     connect-timeout-millis: 10000
     socket-timeout-millis: 10000

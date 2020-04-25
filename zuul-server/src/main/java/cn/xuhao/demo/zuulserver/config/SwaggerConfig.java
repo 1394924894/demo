@@ -11,7 +11,7 @@ import springfox.documentation.swagger.web.UiConfiguration;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * @author: xuhao
+ *
  * @Description:
  * @Date：Created on 2018/3/15 18:14.
  */

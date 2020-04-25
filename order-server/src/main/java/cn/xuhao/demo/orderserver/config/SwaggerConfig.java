@@ -15,7 +15,7 @@ import springfox.documentation.swagger.web.UiConfiguration;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * @author: xuhao
+ *
  * @Description:
  * @Date：Created on 2018/3/15 18:14.
  */
@@ -45,6 +45,7 @@ public class SwaggerConfig {
 
     @Bean
     UiConfiguration uiConfig() {
-        return new UiConfiguration(null, "list", "alpha", "schema", UiConfiguration.Constants.DEFAULT_SUBMIT_METHODS, false, true);
+        return new UiConfiguration(null, "list", "alpha", "schema",
+                UiConfiguration.Constants.DEFAULT_SUBMIT_METHODS, false, true);
     }
 }
