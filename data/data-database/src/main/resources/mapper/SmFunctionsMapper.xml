@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.xuhao.demo.loginserver.mapper.SmFunctionsMapper">
+  <resultMap id="BaseResultMap" type="cn.xuhao.demo.loginserver.domain.SmFunctions">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="pk_functions" jdbcType="VARCHAR" property="pkFunctions" />
+    <result column="fnc_code" jdbcType="VARCHAR" property="fncCode" />
+    <result column="fnc_name" jdbcType="VARCHAR" property="fncName" />
+    <result column="fnc_type" jdbcType="CHAR" property="fncType" />
+    <result column="fnc_status" jdbcType="CHAR" property="fncStatus" />
+  </resultMap>
+</mapper>
