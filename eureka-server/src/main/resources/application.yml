@@ -1,6 +1,6 @@
 ##  服务端口
 server:
-  port: 8080
+  port: 8088
 ##  服务名称
 spring:
   application:
@@ -13,7 +13,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: false
     service-url:
-         defaultZone:   http://localhost:${server.port}/eureka/
+      defaultZone:   http://localhost:${server.port}/eureka/
 ##  日志
 logging:
   level:
@@ -22,7 +22,3 @@ logging:
       netflix:
         eureka: 'off'
         discovery:  'off'
-## 关闭管理类接口的安全认证
-management:
-  security:
-    enabled: false
