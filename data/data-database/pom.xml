@@ -13,8 +13,6 @@
     <artifactId>data-database</artifactId>
     <packaging>jar</packaging>
 
-
-
     <dependencies>
         <dependency>
             <groupId>tk.mybatis</groupId>
