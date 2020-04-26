@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/data-database/data-database.iml" filepath="$PROJECT_DIR$/data/data-database/data-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/data-dependencies/data-dependencies.iml" filepath="$PROJECT_DIR$/data/data-dependencies/data-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login-server/login-server.iml" filepath="$PROJECT_DIR$/login-server/login-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-server/order-server.iml" filepath="$PROJECT_DIR$/order-server/order-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-server1/order-server1.iml" filepath="$PROJECT_DIR$/order-server1/order-server1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-server2/order-server2.iml" filepath="$PROJECT_DIR$/order-server2/order-server2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment-server/payment-server.iml" filepath="$PROJECT_DIR$/payment-server/payment-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-cloud-zuul-eureka-swagger-demo.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-cloud-zuul-eureka-swagger-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/zuul-server/zuul-server.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jie.demo.loginserver.mapper.SmBankPmnUserMapper">
+  <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SmBankPmnUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="PK_BANK_PMN_USER" jdbcType="VARCHAR" property="pkBankPmnUser" />
+    <result column="PK_BANK_PMN" jdbcType="VARCHAR" property="pkBankPmn" />
+    <result column="RANDOM_NUMBER" jdbcType="CHAR" property="randomNumber" />
+    <result column="PK_USERS" jdbcType="VARCHAR" property="pkUsers" />
+    <result column="BANK_STATUS" jdbcType="CHAR" property="bankStatus" />
+    <result column="NICKNAME" jdbcType="VARCHAR" property="nickname" />
+    <result column="POSITION" jdbcType="VARCHAR" property="position" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="order-server1" />
+        <module name="login-server" />
+        <module name="order-server2" />
+        <module name="order-server" />
+        <module name="data-database" />
+        <module name="zuul-server" />
+        <module name="payment-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="data" target="1.5" />
+      <module name="data-commons" target="1.8" />
+      <module name="data-commons-domain" target="1.8" />
+      <module name="data-commons-mapper" target="1.8" />
+      <module name="data-database" target="1.8" />
+      <module name="data-dependencies" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="login-server" target="1.8" />
+      <module name="order-server" target="1.8" />
+      <module name="order-server1" target="1.8" />
+      <module name="order-server2" target="1.8" />
+      <module name="payment-server" target="1.8" />
+      <module name="payment-server (1)" target="1.8" />
+      <module name="untitled" target="1.5" />
+      <module name="zuul-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="data" options="-parameters" />
+      <module name="data-commons" options="-parameters" />
+      <module name="data-commons-domain" options="-parameters" />
+      <module name="data-commons-mapper" options="-parameters" />
+      <module name="data-database" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="login-server" options="-parameters" />
+      <module name="order-server" options="-parameters" />
+      <module name="order-server1" options="-parameters" />
+      <module name="order-server2" options="-parameters" />
+      <module name="payment-server" options="-parameters" />
+      <module name="zuul-server" options="-parameters" />
+    </option>
+  </component>
+</project>

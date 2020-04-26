@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jie.demo.loginserver.mapper.SmRuleMapper">
+  <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SmRule">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="PK_RULE" jdbcType="VARCHAR" property="pkRule" />
+    <result column="MENU_ID" jdbcType="INTEGER" property="menuId" />
+    <result column="RULE_TITLE" jdbcType="VARCHAR" property="ruleTitle" />
+    <result column="DESCRIPTION" jdbcType="LONGVARCHAR" property="description" />
+  </resultMap>
+</mapper>
