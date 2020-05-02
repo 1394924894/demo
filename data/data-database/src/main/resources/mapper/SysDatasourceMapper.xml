@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jie.demo.loginserver.dao.SysDatasourceMapper">
+  <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SysDatasource">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="DATASOURCE_ID" jdbcType="VARCHAR" property="datasourceId" />
+    <result column="ID" jdbcType="VARCHAR" property="id" />
+    <result column="DATABASE_NAME" jdbcType="VARCHAR" property="databaseName" />
+    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="URL" jdbcType="VARCHAR" property="url" />
+    <result column="ENABLE" jdbcType="CHAR" property="enable" />
+    <result column="DRIVER_CLASS_NAME" jdbcType="VARCHAR" property="driverClassName" />
+    <result column="DATABASE_TYPE" jdbcType="VARCHAR" property="databaseType" />
+  </resultMap>
+</mapper>

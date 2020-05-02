@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/data/data-database/data-database.iml" filepath="$PROJECT_DIR$/data/data-database/data-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/data-dependencies/data-dependencies.iml" filepath="$PROJECT_DIR$/data/data-dependencies/data-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loginServer/loginServer.iml" filepath="$PROJECT_DIR$/loginServer/loginServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-cloud-zuul-eureka-swagger-demo.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-cloud-zuul-eureka-swagger-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loginServer/springboot_druid_demo.iml" filepath="$PROJECT_DIR$/loginServer/springboot_druid_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/zuul-server/zuul-server.iml" />
+    </modules>
+  </component>
+</project>

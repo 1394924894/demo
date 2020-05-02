@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jie.demo.loginserver.dao.SmSysparaMapper">
+  <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SmSyspara">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="pk_syspara" jdbcType="VARCHAR" property="pkSyspara" />
+    <result column="p_key" jdbcType="VARCHAR" property="pKey" />
+    <result column="p_value" jdbcType="VARCHAR" property="pValue" />
+    <result column="p_default" jdbcType="VARCHAR" property="pDefault" />
+    <result column="p_name" jdbcType="VARCHAR" property="pName" />
+    <result column="p_desc" jdbcType="VARCHAR" property="pDesc" />
+    <result column="p_data_type" jdbcType="CHAR" property="pDataType" />
+    <result column="p_type" jdbcType="CHAR" property="pType" />
+    <result column="pk_account" jdbcType="VARCHAR" property="pkAccount" />
+  </resultMap>
+</mapper>

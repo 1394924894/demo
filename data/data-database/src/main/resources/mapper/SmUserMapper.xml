@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jie.demo.loginserver.dao.SmUserMapper">
+  <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SmUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="PK_USERS" jdbcType="VARCHAR" property="pkUsers" />
+    <result column="USER_CODE" jdbcType="VARCHAR" property="userCode" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+    <result column="RIGHTS" jdbcType="VARCHAR" property="rights" />
+    <result column="USER_TYPE" jdbcType="VARCHAR" property="userType" />
+    <result column="LAST_LOGIN" jdbcType="VARCHAR" property="lastLogin" />
+    <result column="IP" jdbcType="VARCHAR" property="ip" />
+    <result column="STATUS" jdbcType="VARCHAR" property="status" />
+    <result column="BZ" jdbcType="VARCHAR" property="bz" />
+    <result column="SKIN" jdbcType="VARCHAR" property="skin" />
+    <result column="EMAIL" jdbcType="VARCHAR" property="email" />
+    <result column="NUMBER" jdbcType="VARCHAR" property="number" />
+    <result column="PHONE" jdbcType="VARCHAR" property="phone" />
+    <result column="PK_OF_ORG" jdbcType="VARCHAR" property="pkOfOrg" />
+    <result column="profession" jdbcType="VARCHAR" property="profession" />
+    <result column="join_year" jdbcType="VARCHAR" property="joinYear" />
+    <result column="register_datetime" jdbcType="CHAR" property="registerDatetime" />
+  </resultMap>
+</mapper>
