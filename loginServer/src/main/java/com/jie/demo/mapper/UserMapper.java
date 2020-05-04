@@ -2,15 +2,10 @@ package com.jie.demo.mapper;
 
 
 import com.jie.demo.model.Users;
+import com.jie.demo.druid.MyMapper;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
-public interface UserMapper {
-
-    int deleteByPrimaryKey(Integer var1);
-
+public interface UserMapper extends MyMapper<Users> {
     int insertSelective(Users var1);
-
-    Users selectByPrimaryKey(Integer var1);
-
 }

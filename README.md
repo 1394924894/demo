@@ -11,3 +11,5 @@ mybatis:
   mapper-locations: classpath*:mappers/*.xml
   #配置Mapper扫描的实体类包
   typeAliasesPackage: com.jie.demo.model
+ 
+ @Id 注明是主键

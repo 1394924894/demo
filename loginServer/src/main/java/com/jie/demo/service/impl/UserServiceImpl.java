@@ -14,11 +14,6 @@ public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
 
     @Override
-    public int deleteByPrimaryKey(Integer var1) {
-        return userMapper.deleteByPrimaryKey(var1);
-    }
-
-    @Override
     public Users insertSelective(Users var1) {
         userMapper.insertSelective(var1);
         return var1;
@@ -26,6 +21,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Users selectByPrimaryKey(Integer var1) {
+        System.out.println("userMapper.selectAll();"+userMapper.selectByPrimaryKey(var1));
         return userMapper.selectByPrimaryKey(var1);
     }
 

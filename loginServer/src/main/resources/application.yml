@@ -30,6 +30,16 @@ mybatis:
   mapper-locations: classpath*:mappers/*.xml
   #配置Mapper扫描的实体类包
   typeAliasesPackage: com.jie.demo.model
+mapper:
+  mappers:
+    - com.jie.demo.druid.MyMapper
+  not-empty: false
+  identity: MYSQL
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
 eureka:
   client:
     service-url:
