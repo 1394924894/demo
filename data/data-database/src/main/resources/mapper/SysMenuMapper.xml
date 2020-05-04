@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.jie.demo.loginserver.dao.SysMenuMapper">
-  <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SysMenu">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="MENU_ID" jdbcType="INTEGER" property="menuId" />
-    <result column="MENU_NAME" jdbcType="VARCHAR" property="menuName" />
-    <result column="MENU_URL" jdbcType="VARCHAR" property="menuUrl" />
-    <result column="PARENT_ID" jdbcType="VARCHAR" property="parentId" />
-    <result column="MENU_ORDER" jdbcType="VARCHAR" property="menuOrder" />
-    <result column="MENU_ICON" jdbcType="VARCHAR" property="menuIcon" />
-    <result column="MENU_TYPE" jdbcType="VARCHAR" property="menuType" />
-    <result column="IS_DESKTOP" jdbcType="CHAR" property="isDesktop" />
-    <result column="MENU_CODE" jdbcType="VARCHAR" property="menuCode" />
-    <result column="MENU_PNG" jdbcType="VARCHAR" property="menuPng" />
-  </resultMap>
+    <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SysMenu">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="MENU_ID" jdbcType="INTEGER" property="menuId"/>
+        <result column="MENU_NAME" jdbcType="VARCHAR" property="menuName"/>
+        <result column="MENU_URL" jdbcType="VARCHAR" property="menuUrl"/>
+        <result column="PARENT_ID" jdbcType="VARCHAR" property="parentId"/>
+        <result column="MENU_ORDER" jdbcType="VARCHAR" property="menuOrder"/>
+        <result column="MENU_ICON" jdbcType="VARCHAR" property="menuIcon"/>
+        <result column="MENU_TYPE" jdbcType="VARCHAR" property="menuType"/>
+        <result column="IS_DESKTOP" jdbcType="CHAR" property="isDesktop"/>
+        <result column="MENU_CODE" jdbcType="VARCHAR" property="menuCode"/>
+        <result column="MENU_PNG" jdbcType="VARCHAR" property="menuPng"/>
+    </resultMap>
 </mapper>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.jie.demo.loginserver.dao.TBusinessMonitorMapper">
-  <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.TBusinessMonitor">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="PK_BUSINESSMONITOR" jdbcType="VARCHAR" property="pkBusinessmonitor" />
-    <result column="bank_name" jdbcType="VARCHAR" property="bankName" />
-  </resultMap>
+    <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.TBusinessMonitor">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="PK_BUSINESSMONITOR" jdbcType="VARCHAR" property="pkBusinessmonitor"/>
+        <result column="bank_name" jdbcType="VARCHAR" property="bankName"/>
+    </resultMap>
 </mapper>

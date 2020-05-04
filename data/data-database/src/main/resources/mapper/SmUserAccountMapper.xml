@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.jie.demo.loginserver.dao.SmUserAccountMapper">
-  <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SmUserAccount">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="pk_user_account" jdbcType="VARCHAR" property="pkUserAccount" />
-    <result column="pk_users" jdbcType="VARCHAR" property="pkUsers" />
-    <result column="pk_account" jdbcType="VARCHAR" property="pkAccount" />
-    <result column="ua_status" jdbcType="CHAR" property="uaStatus" />
-  </resultMap>
+    <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SmUserAccount">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="pk_user_account" jdbcType="VARCHAR" property="pkUserAccount"/>
+        <result column="pk_users" jdbcType="VARCHAR" property="pkUsers"/>
+        <result column="pk_account" jdbcType="VARCHAR" property="pkAccount"/>
+        <result column="ua_status" jdbcType="CHAR" property="uaStatus"/>
+    </resultMap>
 </mapper>

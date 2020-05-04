@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.jie.demo.loginserver.dao.SmBankPmnMapper">
-  <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SmBankPmn">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="PK_BANK_PMN" jdbcType="VARCHAR" property="pkBankPmn" />
-    <result column="BANK_NAME" jdbcType="VARCHAR" property="bankName" />
-    <result column="RANDOM_NUMBER" jdbcType="CHAR" property="randomNumber" />
-    <result column="ADMINISTRATOR" jdbcType="VARCHAR" property="administrator" />
-    <result column="CLS_RANDOM_NUMBER" jdbcType="CHAR" property="clsRandomNumber" />
-    <result column="CREATOR" jdbcType="VARCHAR" property="creator" />
-    <result column="CREATE_TIME" jdbcType="CHAR" property="createTime" />
-    <result column="MODIFYOR" jdbcType="VARCHAR" property="modifyor" />
-    <result column="MODIFY_TIME" jdbcType="CHAR" property="modifyTime" />
-  </resultMap>
+    <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SmBankPmn">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="PK_BANK_PMN" jdbcType="VARCHAR" property="pkBankPmn"/>
+        <result column="BANK_NAME" jdbcType="VARCHAR" property="bankName"/>
+        <result column="RANDOM_NUMBER" jdbcType="CHAR" property="randomNumber"/>
+        <result column="ADMINISTRATOR" jdbcType="VARCHAR" property="administrator"/>
+        <result column="CLS_RANDOM_NUMBER" jdbcType="CHAR" property="clsRandomNumber"/>
+        <result column="CREATOR" jdbcType="VARCHAR" property="creator"/>
+        <result column="CREATE_TIME" jdbcType="CHAR" property="createTime"/>
+        <result column="MODIFYOR" jdbcType="VARCHAR" property="modifyor"/>
+        <result column="MODIFY_TIME" jdbcType="CHAR" property="modifyTime"/>
+    </resultMap>
 </mapper>

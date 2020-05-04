@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.jie.demo.loginserver.dao.SmUsersMapper">
-  <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SmUsers">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="pk_users" jdbcType="VARCHAR" property="pkUsers" />
-    <result column="user_code" jdbcType="VARCHAR" property="userCode" />
-    <result column="user_name" jdbcType="VARCHAR" property="userName" />
-    <result column="user_type" jdbcType="CHAR" property="userType" />
-    <result column="user_pass" jdbcType="VARCHAR" property="userPass" />
-    <result column="account_status" jdbcType="CHAR" property="accountStatus" />
-  </resultMap>
+    <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SmUsers">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="pk_users" jdbcType="VARCHAR" property="pkUsers"/>
+        <result column="user_code" jdbcType="VARCHAR" property="userCode"/>
+        <result column="user_name" jdbcType="VARCHAR" property="userName"/>
+        <result column="user_type" jdbcType="CHAR" property="userType"/>
+        <result column="user_pass" jdbcType="VARCHAR" property="userPass"/>
+        <result column="account_status" jdbcType="CHAR" property="accountStatus"/>
+    </resultMap>
 </mapper>

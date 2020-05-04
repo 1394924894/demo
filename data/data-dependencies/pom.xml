@@ -222,18 +222,6 @@
 
     <repositories>
         <repository>
-            <id>nexus</id>
-            <name>Nexus Repository</name>
-            <url>http://192.168.152.139:8081/repository/maven-public/</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </repository>
-
-        <repository>
             <id>aliyun-repos</id>
             <name>Aliyun Repository</name>
             <url>http://maven.aliyun.com/nexus/content/groups/public</url>
@@ -287,18 +275,6 @@
     </repositories>
 
     <pluginRepositories>
-        <pluginRepository>
-            <id>nexus</id>
-            <name>Nexus Plugin Repository</name>
-            <url>http://192.168.152.139:8081/repository/maven-public/</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </pluginRepository>
-
         <pluginRepository>
             <id>aliyun-repos</id>
             <name>Aliyun Repository</name>

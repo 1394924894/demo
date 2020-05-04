@@ -22,18 +22,20 @@ spring:
     driverClassName: com.mysql.cj.jdbc.Driver
     maxActive: 3
 server:
-  port: 8089
+  port: 8084
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
     use-generated-keys: true
   mapper-locations: classpath*:mappers/*.xml
+  #配置Mapper扫描的实体类包
+  typeAliasesPackage: com.jie.demo.model
 eureka:
   client:
     service-url:
-     defaultZone: http://localhost:8080/eureka/
+      defaultZone: http://localhost:8080/eureka/
   instance:
-   status-page-url: http://localhost:8096/swagger-ui.html
+    status-page-url: http://localhost:8096/swagger-ui.html
 logging:
   level:
     root: info

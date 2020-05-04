@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.jie.demo.loginserver.dao.SmCodeTypeMapper">
-  <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SmCodeType">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <result column="type_code" jdbcType="VARCHAR" property="typeCode" />
-    <result column="type_name" jdbcType="VARCHAR" property="typeName" />
-    <result column="pk_code_type" jdbcType="VARCHAR" property="pkCodeType" />
-  </resultMap>
+    <resultMap id="BaseResultMap" type="com.jie.demo.loginserver.domain.SmCodeType">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <result column="type_code" jdbcType="VARCHAR" property="typeCode"/>
+        <result column="type_name" jdbcType="VARCHAR" property="typeName"/>
+        <result column="pk_code_type" jdbcType="VARCHAR" property="pkCodeType"/>
+    </resultMap>
 </mapper>
