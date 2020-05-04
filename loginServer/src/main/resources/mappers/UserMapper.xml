@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="UserMapper">
+<mapper namespace="com.jie.demo.mapper.UserMapper">
 
     <delete id="deleteByPrimaryKey">
         DELETE
@@ -8,7 +8,7 @@
         WHERE user_id = #{userId}
     </delete>
 
-    <insert id="insertSelective" parameterMap="Users" keyProperty="userId">
+    <insert id="insertSelective" parameterType="Users" keyProperty="userId">
         INSERT INTO user (
           user_name, user_phone, user_address
         )
@@ -18,13 +18,13 @@
           )
     </insert>
 
-    <resultMap id="selectByPrimaryKeyMap" type="Users">
+   <!-- <resultMap id="selectByPrimaryKeyMap" type="Users">
         <result column="user_id" property="userId"/>
         <result column="user_name" property="userName"/>
         <result column="user_phone" property="userPhone"/>
         <result column="user_address" property="userAddress"/>
-    </resultMap>
-    <select id="selectByPrimaryKey" parameterMap="int" resultMap="com.jie.demo.model.Users">
+    </resultMap>-->
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultType="com.jie.demo.model.Users">
       select *
       from user
       where user_id = #{userId}
