@@ -6,12 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="zuul-server" />
         <module name="loginServer" />
         <module name="eureka-server" />
+        <module name="common" />
+        <module name="zuul-server" />
+        <module name="commons" />
+        <module name="data-database" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common" target="1.5" />
+      <module name="commons" target="1.8" />
+      <module name="data-database" target="1.8" />
+      <module name="data-dependencies" target="1.8" />
+      <module name="demo" target="1.5" />
       <module name="dependencies" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="loginServer" target="1.8" />
@@ -20,6 +28,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="" />
+      <module name="commons" options="-parameters" />
+      <module name="data-database" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="loginServer" options="-parameters" />
       <module name="zuul-server" options="-parameters" />

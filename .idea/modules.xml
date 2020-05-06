@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/data-database/data-database.iml" filepath="$PROJECT_DIR$/data/data-database/data-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/data-dependencies/data-dependencies.iml" filepath="$PROJECT_DIR$/data/data-dependencies/data-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/demo.iml" filepath="$PROJECT_DIR$/.idea/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dependencies/dependencies.iml" filepath="$PROJECT_DIR$/dependencies/dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
