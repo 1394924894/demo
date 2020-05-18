@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/data/data-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/data/data-database/pom.xml" />
+        <option value="$PROJECT_DIR$/mySpringBoot-master/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

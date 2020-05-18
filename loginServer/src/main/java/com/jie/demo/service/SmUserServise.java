@@ -8,4 +8,5 @@ import java.util.List;
 @Service
 public interface SmUserServise {
     List<SmUser> getAll();
+    SmUser getUserByUserPassword(String username,String password);
 }

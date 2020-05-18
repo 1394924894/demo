@@ -12,8 +12,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @EnableEurekaClient
 @MapperScan("com.jie.demo.mapper")
-public class SpringbootDruidDemoApplication {
+public class LoginDemoApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootDruidDemoApplication.class, args);
+        SpringApplication.run(LoginDemoApplication.class, args);
     }
 }

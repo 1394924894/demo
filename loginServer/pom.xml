@@ -89,6 +89,24 @@
             <artifactId>mybatis-spring</artifactId>
         </dependency>
         <!-- tkmybatis -->
+
+        <!-- cas-shiro -->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-ehcache</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-cas</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+        <!-- cas-shiro -->
     </dependencies>
     <build>
         <resources>

@@ -13,3 +13,4 @@ mybatis:
   typeAliasesPackage: com.jie.demo.model
  
  @Id 注明是主键 
+ @Param(value="username")String username 在此注明之后就不用在 mapper.xml中 写parameterType参数

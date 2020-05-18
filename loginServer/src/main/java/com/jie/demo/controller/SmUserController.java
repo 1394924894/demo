@@ -9,9 +9,7 @@ import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -28,5 +26,12 @@ public class SmUserController {
     @PostMapping("/getAll")
     public RetResult<List<SmUser>> addUser() {
         return RetResponse.makeOKRsp(smUserServise.getAll());
+    }
+    @ApiOperation(value = "登录",notes = "返回用户信息")
+    @ResponseBody
+    @PostMapping("/login")
+    public RetResult<SmUser> login(@RequestParam String username, @RequestParam String password) {
+
+        return RetResponse.makeOKRsp(smUserServise.getUserByUserPassword(username, password));
     }
 }

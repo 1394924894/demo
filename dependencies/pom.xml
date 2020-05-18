@@ -40,6 +40,8 @@
         <tk-mybatis.version>4.1.5</tk-mybatis.version>
         <tk-mybatis-mapper-spring-boot.version>2.1.5</tk-mybatis-mapper-spring-boot.version>
         <pagehelper.version>4.1.0</pagehelper.version>
+        <!--shiro-->
+        <shiro.version>1.5.3</shiro.version>
     </properties>
 
     <dependencyManagement>

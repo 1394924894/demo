@@ -24,4 +24,10 @@
     <result column="join_year" jdbcType="VARCHAR" property="joinYear" />
     <result column="register_datetime" jdbcType="CHAR" property="registerDatetime" />
   </resultMap>
+  <select id="getUserByUserPassword" resultType="com.jie.demo.model.SmUser">
+      select *
+      from sm_user
+      where USER_CODE = #{username}
+       and PASSWORD = #{password}
+    </select>
 </mapper>

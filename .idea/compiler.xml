@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="loginServer" />
-        <module name="eureka-server" />
+        <module name="commons" />
         <module name="common" />
         <module name="zuul-server" />
-        <module name="commons" />
+        <module name="demo (1) (com.example)" />
+        <module name="eureka-server" />
         <module name="data-database" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="data-database" target="1.8" />
       <module name="data-dependencies" target="1.8" />
       <module name="demo" target="1.5" />
+      <module name="demo (1) (com.example)" target="1.8" />
       <module name="dependencies" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="loginServer" target="1.8" />
@@ -31,6 +33,7 @@
       <module name="common" options="" />
       <module name="commons" options="-parameters" />
       <module name="data-database" options="-parameters" />
+      <module name="demo (1) (com.example)" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="loginServer" options="-parameters" />
       <module name="zuul-server" options="-parameters" />
