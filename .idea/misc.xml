@@ -3,26 +3,4 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
-  <component name="MavenProjectsManager">
-    <option name="originalFiles">
-      <list>
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/order-server/pom.xml" />
-        <option value="$PROJECT_DIR$/order-server1/pom.xml" />
-        <option value="$PROJECT_DIR$/order-server2/pom.xml" />
-        <option value="$PROJECT_DIR$/payment-server/pom.xml" />
-        <option value="$PROJECT_DIR$/zuul-server/pom.xml" />
-        <option value="$PROJECT_DIR$/login-server/pom.xml" />
-        <option value="$PROJECT_DIR$/data/pom.xml" />
-        <option value="$PROJECT_DIR$/data/data-dependencies/pom.xml" />
-      </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/data/data-commons-domain/pom.xml" />
-        <option value="$PROJECT_DIR$/data/data-commons/pom.xml" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
