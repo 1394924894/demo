@@ -18,10 +18,10 @@
     <bytecodeTargetLevel>
       <module name="common" target="1.5" />
       <module name="commons" target="1.8" />
-      <module name="data-database" target="1.8" />
-      <module name="data-dependencies" target="1.8" />
+      <module name="data-database" target="1.5" />
+      <module name="data-dependencies" target="1.5" />
       <module name="demo" target="1.5" />
-      <module name="demo (1) (com.example)" target="1.8" />
+      <module name="demo (1) (com.example)" target="1.5" />
       <module name="dependencies" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="loginServer" target="1.8" />
