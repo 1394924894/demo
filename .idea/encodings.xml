@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/commons" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/data-database" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/data-database/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/data-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/loginServer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/loginServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringBoot-master" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mySpringBoot-master/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-server/src/main/resources" charset="UTF-8" />
   </component>
