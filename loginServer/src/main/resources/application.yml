@@ -23,7 +23,7 @@ spring:
     driverClassName: com.mysql.cj.jdbc.Driver
     maxActive: 3
 server:
-  port: 8084
+  port: 8086
 mybatis:
   configuration:
     map-underscore-to-camel-case: true

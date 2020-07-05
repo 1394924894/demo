@@ -1,3 +1,7 @@
+## 启动步骤
+1. zuul-server
+2. zuul-server
+3. 在启动紫的服务
 # demo
 demo
 借鉴：https://github.com/xuejian0616/spring-boot-cloud-zuul-eureka-swagger-demo
