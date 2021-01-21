@@ -33,7 +33,7 @@ mybatis:
   typeAliasesPackage: com.jie.demo.model
 mapper:
   mappers:
-    - com.jie.demo.druid.MyMapper
+    - com.jie.demo.common.druid.MyMapper
   not-empty: false
   identity: MYSQL
 pagehelper:

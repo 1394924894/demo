@@ -1,7 +1,7 @@
 package com.jie.test.controller;
 
-import com.jie.demo.common.RetResponse;
-import com.jie.demo.common.RetResult;
+import com.jie.demo.common.result.RetResponse;
+import com.jie.demo.common.result.RetResult;
 import com.jie.test.model.SmUser;
 import com.jie.test.service.SmUserServise;
 import io.swagger.annotations.Api;

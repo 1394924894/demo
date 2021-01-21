@@ -9,10 +9,12 @@
         <module name="loginServer" />
         <module name="commons" />
         <module name="common" />
+        <module name="test1" />
         <module name="zuul-server" />
         <module name="demo (1) (com.example)" />
         <module name="eureka-server" />
         <module name="data-database" />
+        <module name="loginServer (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +27,8 @@
       <module name="dependencies" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="loginServer" target="1.8" />
+      <module name="loginServer (1)" target="1.8" />
+      <module name="test1" target="1.8" />
       <module name="zuul-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -36,6 +40,8 @@
       <module name="demo (1) (com.example)" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="loginServer" options="-parameters" />
+      <module name="loginServer (1)" options="-parameters" />
+      <module name="test1" options="-parameters" />
       <module name="zuul-server" options="-parameters" />
     </option>
   </component>

@@ -1,4 +1,4 @@
-package com.jie.test.druid;
+package com.jie.demo.common.druid;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.http.StatViewServlet;

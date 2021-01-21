@@ -1,6 +1,6 @@
 package com.jie.demo.mapper;
 
-import com.jie.demo.druid.MyMapper;
+import com.jie.demo.common.druid.MyMapper;
 import com.jie.demo.model.SmUser;
 import org.apache.ibatis.annotations.Param;
 

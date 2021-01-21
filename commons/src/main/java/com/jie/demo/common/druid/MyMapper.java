@@ -1,4 +1,5 @@
-package com.jie.demo.druid;
+package com.jie.demo.common.druid;
+
 
 import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.common.MySqlMapper;

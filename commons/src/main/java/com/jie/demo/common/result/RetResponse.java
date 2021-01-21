@@ -1,4 +1,4 @@
-package com.jie.demo.common;
+package com.jie.demo.common.result;
 
 /**
  * @Description: 将结果转换为封装后的对象

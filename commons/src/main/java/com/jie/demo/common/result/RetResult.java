@@ -1,4 +1,4 @@
-package com.jie.demo.common;
+package com.jie.demo.common.result;
 
 /**
  * @Description: 返回对象实体
