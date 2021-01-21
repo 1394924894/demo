@@ -1,5 +1,5 @@
 ## 启动步骤
-1. zuul-server
+1. eureka-server
 2. zuul-server
 3. 在启动紫的服务
 # demo
@@ -15,6 +15,13 @@ mybatis:
   mapper-locations: classpath*:mappers/*.xml
   #配置Mapper扫描的实体类包
   typeAliasesPackage: com.jie.demo.model
- 
+
+ routes:
+     login-server:
+       path: /login/**
+     xx-server:
+              path: /login/**
  @Id 注明是主键 
  @Param(value="username")String username 在此注明之后就不用在 mapper.xml中 写parameterType参数
+ 
+ http://localhost:8096/swagger-ui.html

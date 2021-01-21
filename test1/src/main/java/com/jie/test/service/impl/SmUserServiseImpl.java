@@ -1,8 +1,8 @@
-package com.jie.demo.service.impl;
+package com.jie.test.service.impl;
 
-import com.jie.demo.mapper.SmUserMapper;
-import com.jie.demo.model.SmUser;
-import com.jie.demo.service.SmUserServise;
+import com.jie.test.mapper.SmUserMapper;
+import com.jie.test.model.SmUser;
+import com.jie.test.service.SmUserServise;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

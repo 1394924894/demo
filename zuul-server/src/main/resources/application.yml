@@ -26,6 +26,7 @@ zuul:
   routes:
     login-server:
       path: /login/**
+    test:
   host:
     connect-timeout-millis: 10000
     socket-timeout-millis: 10000

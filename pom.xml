@@ -17,5 +17,6 @@
         <module>zuul-server</module>
         <module>dependencies</module>
         <module>commons</module>
+        <module>test1</module>
     </modules>
 </project>

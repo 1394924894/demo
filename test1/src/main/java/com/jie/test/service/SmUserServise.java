@@ -1,6 +1,6 @@
-package com.jie.demo.service;
+package com.jie.test.service;
 
-import com.jie.demo.model.SmUser;
+import com.jie.test.model.SmUser;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
