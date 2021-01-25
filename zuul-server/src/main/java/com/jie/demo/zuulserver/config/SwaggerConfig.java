@@ -1,5 +1,6 @@
 package com.jie.demo.zuulserver.config;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -18,9 +19,13 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class SwaggerConfig {
 
+    @Value("${swagger.enable}")
+    private boolean enableSwagger;
     @Bean
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
+                // 配置Swagger的开关 在yml 配置
+                .enable(enableSwagger)
                 .apiInfo(apiInfo());
     }
 

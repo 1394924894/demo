@@ -23,6 +23,9 @@
                 userId="${jdbc.username}"
                 password="${jdbc.password}">
         </jdbcConnection>
+        <!-- Oracle 数据库连接的信息 -->
+        <!-- <jdbcConnection driverClass="oracle.jdbc.OracleDriver" connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:yycg"
+            userId="yycg" password="yycg"> </jdbcConnection> -->
 
         <!-- 配置实体类存放路径 -->
         <javaModelGenerator targetPackage="com.jie.demo.model" targetProject="src/main/java"/>
@@ -37,7 +40,7 @@
                 type="XMLMAPPER"/>
 
         <!-- 配置需要指定生成的数据库和表，% 代表所有表 -->
-        <table catalog="mytest2" tableName="%">
+        <table catalog="myshop" tableName="%">
             <!-- mysql 配置 -->
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>

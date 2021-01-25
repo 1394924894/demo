@@ -50,6 +50,8 @@ eureka:
     status-page-url: http://localhost:8096/swagger-ui.html
 logging:
   level:
+    # 配置sql打印日志
+    com.jie.test.mapper: debug
     root: info
     com:
       netflix:

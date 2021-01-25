@@ -31,9 +31,9 @@ public class SmUserController {
     @ApiOperation(value = "登录",notes = "返回用户信息")
     @ResponseBody
     @PostMapping("/login")
-    public RetResult<SmUser> login(@RequestParam String username, @RequestParam String password) {
+    public RetResult<SmUser> login() {
 
-        return RetResponse.makeOKRsp(smUserServise.getUserByUserPassword(username, password));
+        return RetResponse.makeOKRsp();
     }
     @RequestMapping(value = "/time",method  = RequestMethod.POST)
     @ApiOperation(value = "时间",notes = "返回用户信息")

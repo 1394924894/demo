@@ -25,3 +25,5 @@ mybatis:
  @Param(value="username")String username 在此注明之后就不用在 mapper.xml中 写parameterType参数
  
  http://localhost:8096/swagger-ui.html
+ 
+ base 参考 https://blog.csdn.net/qq_36599564/article/details/102976591

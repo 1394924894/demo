@@ -14,8 +14,7 @@ import springfox.documentation.swagger.web.UiConfiguration;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * @Description:
- * @Date：Created on 2018/3/15 18:14.
+ * 每一个项目都要配置
  */
 @Configuration
 @EnableSwagger2

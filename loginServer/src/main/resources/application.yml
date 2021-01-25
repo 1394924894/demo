@@ -11,7 +11,7 @@ spring:
     poolPreparedStatements: true
     type: com.alibaba.druid.pool.DruidDataSource
     #springboot_druid_demo
-    url: jdbc:mysql://localhost:3306/test2?characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/myshop?characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=UTC
     maxPoolPreparedStatementPerConnectionSize: 20
     password: root
     username: root
@@ -49,6 +49,8 @@ eureka:
     status-page-url: http://localhost:8096/swagger-ui.html
 logging:
   level:
+    # 配置sql打印日志
+    com.jie.demo.mapper: debug
     root: info
     com:
       netflix:
