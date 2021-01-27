@@ -39,14 +39,21 @@
         <!--tkmybatis-->
         <tk-mybatis.version>4.1.5</tk-mybatis.version>
         <tk-mybatis-mapper-spring-boot.version>2.1.5</tk-mybatis-mapper-spring-boot.version>
-        <pagehelper.version>4.1.0</pagehelper.version>
+        <pagehelper.version>5.1.11</pagehelper.version>
+        <pagehelper-spring.version>1.2.13</pagehelper-spring.version>
         <!--shiro-->
         <shiro.version>1.5.3</shiro.version>
+
     </properties>
 
     <dependencyManagement>
         <dependencies>
             <!-- tkmybatis -->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${pagehelper-spring.version}</version>
+            </dependency>
             <dependency>
                 <groupId>tk.mybatis</groupId>
                 <artifactId>mapper</artifactId>
@@ -277,6 +284,7 @@
                             <exclude>**/*.min.js</exclude>
                             <exclude>**/*.min.css</exclude>
                         </excludes>
+
                     </configuration>
                 </plugin>
             </plugins>

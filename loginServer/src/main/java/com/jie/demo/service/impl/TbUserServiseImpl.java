@@ -8,6 +8,8 @@ import com.jie.demo.service.TbUserServise;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public class TbUserServiseImpl extends BaseServiceImpl<TbUser, Integer, Object> implements TbUserServise {
     @Autowired
@@ -21,4 +23,8 @@ public class TbUserServiseImpl extends BaseServiceImpl<TbUser, Integer, Object> 
         return tbUserMapper;
     }
 
+    @Override
+    public List<TbUser> getUserByUserPassword() {
+        return tbUserMapper.getUserByUserPassword();
+    }
 }

@@ -9,5 +9,5 @@ import java.util.List;
 
 @Service
 public interface TbUserServise extends BaseService<TbUser, Integer, Object>{
-
+    List<TbUser> getUserByUserPassword();
 }

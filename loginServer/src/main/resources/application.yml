@@ -36,6 +36,7 @@ mapper:
     - com.jie.demo.common.druid.MyMapper
   not-empty: false
   identity: MYSQL
+  #分页
 pagehelper:
   helperDialect: mysql
   reasonable: true

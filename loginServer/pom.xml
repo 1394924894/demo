@@ -19,7 +19,6 @@
             <artifactId>batik-bridge</artifactId>
             <version>1.13</version>
         </dependency>
-
         <dependency>
             <groupId>com.jiede.demo</groupId>
             <artifactId>commons</artifactId>
