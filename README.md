@@ -26,4 +26,6 @@ mybatis:
  
  http://localhost:8096/swagger-ui.html
  
+ https://github.com/1394924894/demo.git
+ 
  base 参考 https://blog.csdn.net/qq_36599564/article/details/102976591
