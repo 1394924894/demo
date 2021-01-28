@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jie.demo.mapper.ContentCommentMapper">
+  <resultMap id="BaseResultMap" type="com.jie.demo.model.ContentComment">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="content_id" jdbcType="INTEGER" property="contentId" />
+    <result column="created" jdbcType="DATE" property="created" />
+    <result column="updated" jdbcType="DATE" property="updated" />
+    <result column="text" jdbcType="LONGVARBINARY" property="text" />
+  </resultMap>
+</mapper>

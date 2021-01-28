@@ -13,7 +13,7 @@
 
         <!-- 配置 tk.mybatis 插件 -->
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
-            <property name="mappers" value="tk.mybatis.MyMapper"/>
+            <property name="mappers" value="tk.mybatis.mapper.MyMapper"/>
         </plugin>
 
         <!-- 配置数据库连接 -->
@@ -23,21 +23,24 @@
                 userId="${jdbc.username}"
                 password="${jdbc.password}">
         </jdbcConnection>
+        <!-- Oracle 数据库连接的信息 -->
+        <!-- <jdbcConnection driverClass="oracle.jdbc.OracleDriver" connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:yycg"
+            userId="yycg" password="yycg"> </jdbcConnection> -->
 
         <!-- 配置实体类存放路径 -->
-        <javaModelGenerator targetPackage="com.jie.demo.loginserver.domain" targetProject="src/main/java"/>
+        <javaModelGenerator targetPackage="com.jie.demo.model" targetProject="src/main/java"/>
 
         <!-- 配置 XML 存放路径 -->
-        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
+        <sqlMapGenerator targetPackage="mappers" targetProject="src/main/resources"/>
 
         <!-- 配置 DAO 存放路径 -->
         <javaClientGenerator
-                targetPackage="com.jie.demo.loginserver.mapper"
+                targetPackage="com.jie.demo.mapper"
                 targetProject="src/main/java"
                 type="XMLMAPPER"/>
 
         <!-- 配置需要指定生成的数据库和表，% 代表所有表 -->
-        <table catalog="mytest2" tableName="%">
+        <table catalog="myshop" tableName="%">
             <!-- mysql 配置 -->
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>

@@ -1,6 +1,9 @@
 ##  服务端口
 server:
   port: 8096
+swagger:
+  #  true 显示 swagger  false 不显示 swagger
+  enable: true
 ##  服务名称
 spring:
   application:
@@ -9,7 +12,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8088/eureka/
+      defaultZone: http://localhost:8080/eureka/
   instance:
     status-page-url: http://localhost:8096/swagger-ui.html
 ##  日志
@@ -24,12 +27,9 @@ logging:
 ## zuul的服务网关配置
 zuul:
   routes:
-    payment-server:
-      path: /pay/**
-    order-server:
-      path: /order/**
     login-server:
       path: /login/**
+    test:
   host:
     connect-timeout-millis: 10000
     socket-timeout-millis: 10000
