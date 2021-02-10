@@ -43,11 +43,17 @@
         <pagehelper-spring.version>1.2.13</pagehelper-spring.version>
         <!--shiro-->
         <shiro.version>1.5.3</shiro.version>
+        <pagehelper-spring-boot-autoconfigure.vserion>1.3.0</pagehelper-spring-boot-autoconfigure.vserion>
 
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-autoconfigure</artifactId>
+                <version>${pagehelper-spring-boot-autoconfigure.vserion}</version>
+            </dependency>
             <!-- tkmybatis -->
             <dependency>
                 <groupId>com.github.pagehelper</groupId>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jie.demo.mapper.SmSequenceMapper">
+  <resultMap id="BaseResultMap" type="com.jie.demo.model.SmSequence">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="pk_sequence" jdbcType="VARCHAR" property="pkSequence" />
+    <result column="table_name" jdbcType="VARCHAR" property="tableName" />
+    <result column="current_value" jdbcType="CHAR" property="currentValue" />
+    <result column="increment" jdbcType="TINYINT" property="increment" />
+    <result column="cache" jdbcType="TINYINT" property="cache" />
+  </resultMap>
+</mapper>

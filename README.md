@@ -29,3 +29,26 @@ http://localhost:8096/swagger-ui.html
   githup  https://github.com/1394924894/demo.git
  
  base 参考 https://blog.csdn.net/qq_36599564/article/details/102976591
+ 
+ 
+ 分页
+ // https://www.cnblogs.com/zhenghengbin/p/9368518.html
+ <dependency>
+             <groupId>com.github.pagehelper</groupId>
+             <artifactId>pagehelper</artifactId>
+             <version>5.1.2</version>
+         </dependency>
+         <dependency>
+             <groupId>com.github.pagehelper</groupId>
+             <artifactId>pagehelper-spring-boot-autoconfigure</artifactId>
+             <version>1.3.0</version>
+         </dependency>
+         <dependency>
+             <groupId>com.github.pagehelper</groupId>
+             <artifactId>pagehelper-spring-boot-starter</artifactId>
+             <version>1.2.3</version>
+         </dependency>
+         
+         
+     忽略提交不必要的文件
+     https://www.cnblogs.com/jpfss/p/11880553.html

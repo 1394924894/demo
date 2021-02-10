@@ -36,12 +36,6 @@ mapper:
     - com.jie.demo.common.druid.MyMapper
   not-empty: false
   identity: MYSQL
-  #分页
-pagehelper:
-  helperDialect: mysql
-  reasonable: true
-  supportMethodsArguments: true
-  params: count=countSql
 eureka:
   client:
     service-url:
@@ -57,3 +51,9 @@ logging:
       netflix:
         eureka: 'off'
         discovery: 'off'
+  #分页
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
